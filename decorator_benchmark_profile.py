@@ -9,7 +9,7 @@ def benchmark_me():
             start = timeit.default_timer()
             result = function(*args, **kwargs)
             end = timeit.default_timer()
-            print("{0} - params: {1} {2} #result: {3} total time: {4}(second)".format(function.__name__, str(*args), str(*kwargs) , result, (end - start)))
+            print("{0} - params: {1} {2} #Result: {3} #Total time: {4}(second)".format(function.__name__, str(*args), str(*kwargs) , result, (end - start)))
             return result
         return wraps
     return decorator

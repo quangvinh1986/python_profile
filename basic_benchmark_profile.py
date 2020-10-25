@@ -55,7 +55,7 @@ def benchmark_function(function, params):
     start = timeit.default_timer()
     result = function(params)
     end = timeit.default_timer()
-    print("{0} - params: {1} #result: {2} total time: {3}(second)".format(function.__name__, params, result, (end - start)))
+    print("{0} - params: {1} #Result: {2} #Total time: {3}(second)".format(function.__name__, params, result, (end - start)))
 
 
 if __name__ == "__main__":

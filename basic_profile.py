@@ -44,12 +44,6 @@ def is_prime_optimal(number):
     return True
 
 
-def random_all_array(length):
-    arr = []
-    for _ in range(length):
-        arr.append(random.randint(1, 10**8))
-    return arr
-
 def run_basic_function(number):
     start = timeit.default_timer()
     result = is_prime_basic(number)
