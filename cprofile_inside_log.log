@@ -1,0 +1,24 @@
+PS E:\code_learn\Projects\python_profile> python .\cprofile_inside.py
+Sun Oct 25 10:10:03 2020    C:\Users\TIEUBA~1\AppData\Local\Temp\tmp2ulra8eo
+
+         12 function calls in 6.125 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10    6.125    0.612    6.125    0.612 cprofile_inside.py:20(is_prime_basic)
+        1    0.000    0.000    6.125    6.125 cprofile_inside.py:37(run_function)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Sun Oct 25 10:10:03 2020    C:\Users\TIEUBA~1\AppData\Local\Temp\tmpnt53m9sb
+
+         22 function calls in 0.001 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10    0.001    0.000    0.001    0.000 cprofile_inside.py:28(is_prime_sqrt)
+        1    0.000    0.000    0.001    0.001 cprofile_inside.py:37(run_function)
+       10    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
